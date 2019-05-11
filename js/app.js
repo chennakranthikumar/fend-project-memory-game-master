@@ -29,7 +29,7 @@ function reseter1() {
 var card;
 // loop to add event listeners to each card
 for (var i = 0; i < cards.length; i++) {
-  card = cards[i];
+ let card = cards[i];
 
   card.addEventListener("click", cardOpen);
 
