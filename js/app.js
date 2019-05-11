@@ -1,8 +1,9 @@
 /*
  * Create a list that holds all of your cards
  */
+ 'use strict';
 var cards = Array.prototype.slice.call(document.querySelectorAll(".card"));
-'use strict';
+
 var deck = document.querySelector('.deck');
 
 function onpageload() {
