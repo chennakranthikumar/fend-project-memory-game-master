@@ -23,7 +23,7 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 to learn the concepts  of JavaScript ,DOM sectors, Event Listeners and implementation.
 
-#WORK FLOW:
+# WORK FLOW:
 
 1. the elements cards are loaded into an array by the class object.
 2. the class objects are added  and removed from the present class of the cards which helps in recognize the matched, unmatched or open cards.
@@ -31,8 +31,8 @@ to learn the concepts  of JavaScript ,DOM sectors, Event Listeners and implement
 4. the moves of the player will increment after every 2 opens of the card.
 5. the cards are loaded into the deck randomly ,hence the cards are not static all over the time.
 
-
-#Game Instructions:
+ 
+# Game Instructions:
 
 1. the user is provided with a deck of cards(16) in a 4*4 deck.
 2. the player must match all the cards one by one;
@@ -44,11 +44,11 @@ to learn the concepts  of JavaScript ,DOM sectors, Event Listeners and implement
 8. if the player has 8 matches then the player is  won the game.
 9. after every notification the page will be reloaded means after player had loss the game or won the page will be refreshed.
 
-#Installition
+# Installition
 
  1. clone the project code from the github.
  2. extract the code and run the project in your browser .
  3. the game is on the loaded in the browser  
  
-#Conclusion:
+# Conclusion:
 hence the conceprs of the JavaScript, DOM sectors and Event listeners are implemented by developing the memory game. 
