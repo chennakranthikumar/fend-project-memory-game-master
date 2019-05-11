@@ -15,9 +15,9 @@ function onpageload() {
   });
 }
 
-
+ // TODO: refresh the page function  on page loadng in browser
 window.onload = onpageload();
-
+// TODO: reseter button function
 function reseter() {
   this.addEventListener("click", reseter1());
 
@@ -39,7 +39,7 @@ for (var i = 0; i < cards.length; i++) {
 var opencards = [];
 
 
-// @description add opened cards to opencards list and check if cards are match or not
+// TODO:  add opened cards to opencards list and check if cards are match or not
 function cardOpen() {
   this.classList.toggle("open");
 
@@ -63,7 +63,7 @@ function cardOpen() {
 
 var mastercount = 0;
 
-// @description when cards match
+// TODO:  when cards match
 function matched() {
   opencards[0].classList.add("match", "disabled");
   opencards[1].classList.add("match", "disabled");
@@ -111,14 +111,14 @@ function unmatched() {
     opencards = [];
   }, 200);
 }
-
+// TODO: to disable the card
 function disable() {
   Array.prototype.filter.call(cards, function(cards) {
     card.classList.add('disabled');
   });
 }
 var matchedcards = document.getElementsByClassName('.match')
-
+// TODO: to enable the card
 function enable() {
   Array.prototype.filter.call(cards, function(cards) {
     cards.classList.remove('disabled');
