@@ -26,10 +26,10 @@ function reseter() {
 function reseter1() {
   location.reload();
 }
-var card;
+let card;
 // loop to add event listeners to each card
 for (var i = 0; i < cards.length; i++) {
- let card = cards[i];
+ card = cards[i];
 
   card.addEventListener("click", cardOpen);
 
