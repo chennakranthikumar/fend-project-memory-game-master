@@ -4,11 +4,11 @@
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
-* [AIM OF THE PROJECT](#contributing)
-* [WORK FLOW](#contributing)
-* [GAME Instructions](#contributing)
-* [Installition](#contributing)
-* [Conclusion](#contributing)
+* [AIM_OF_THE_PROJECT](#AIM_OF_THE_PROJECT)
+* [WORK_FLOW](#WORK_FLOW)
+* [Game_Instructions](#Game_Instructions)
+* [Installition](#Installition)
+* [Conclusion](#Conclusion)
 ## Instructions
 
 The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
@@ -23,11 +23,11 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-# AIM OF THE PROJECT:
+# AIM_OF_THE_PROJECT
 
 to learn the concepts  of JavaScript ,DOM sectors, Event Listeners and implementation.
 
-# WORK FLOW:
+# WORK_FLOW
 
 1. the elements cards are loaded into an array by the class object.
 2. the class objects are added  and removed from the present class of the cards which helps in recognize the matched, unmatched or open cards.
@@ -36,7 +36,7 @@ to learn the concepts  of JavaScript ,DOM sectors, Event Listeners and implement
 5. the cards are loaded into the deck randomly ,hence the cards are not static all over the time.
 
  
-# Game Instructions:
+# Game_Instructions
 
 1. the user is provided with a deck of cards(16) in a 4*4 deck.
 2. the player must match all the cards one by one;
@@ -54,5 +54,5 @@ to learn the concepts  of JavaScript ,DOM sectors, Event Listeners and implement
  2. extract the code and run the project in your browser .
  3. the game is on the loaded in the browser  
  
-# Conclusion:
+# Conclusion
 hence the conceprs of the JavaScript, DOM sectors and Event listeners are implemented by developing the memory game. 
