@@ -160,7 +160,7 @@ function moveCounter() {
     stars[starcount - 1].classList.add("fa-star-o");
     starcount--;
   }
-  if (tries > 30 && starcount == 1) {
+  if (tries > 29 && starcount == 1) {
     stars[starcount - 1].classList.add("fa-star-o");
     starcount--;
 // TODO: when the player lost the game
