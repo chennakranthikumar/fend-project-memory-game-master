@@ -74,6 +74,7 @@ function matched() {
   mastercount++;
   //  console.log(mastercount);
   // TODO: response when the player won by matching all the cards
+  var countertime=0;
   if (mastercount == 8) {
     countertime = document.querySelector('.timer');
     swal({
@@ -151,15 +152,15 @@ function moveCounter() {
   // move counter functions to decrease stars
 // TODO: gaming pattern
 
-  if (tries > 8 && starcount == 3) {
+  if (tries > 10 && starcount == 3) {
     stars[starcount - 1].classList.add("fa-star-o");
     starcount--;
   }
-  if (tries > 13 && starcount == 2) {
+  if (tries > 20 && starcount == 2) {
     stars[starcount - 1].classList.add("fa-star-o");
     starcount--;
   }
-  if (tries > 17 && starcount == 1) {
+  if (tries > 30 && starcount == 1) {
     stars[starcount - 1].classList.add("fa-star-o");
     starcount--;
 // TODO: when the player lost the game
