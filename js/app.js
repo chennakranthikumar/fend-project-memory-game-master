@@ -26,10 +26,10 @@ function reseter() {
 function reseter1() {
   location.reload();
 }
-
+var card=0;
 // loop to add event listeners to each card
 for (var i = 0; i < cards.length; i++) {
- let card = cards[i];
+ card = cards[i];
 
   card.addEventListener("click", cardOpen);
 
@@ -62,7 +62,7 @@ function cardOpen() {
 };
 
 var mastercount = 0;
-
+var count=0;
 // TODO:  when cards match
 function matched() {
   opencards[0].classList.add("match", "disabled");
