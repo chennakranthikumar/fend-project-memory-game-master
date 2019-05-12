@@ -19,7 +19,7 @@ function onpageload() {
 window.onload = onpageload();
 // TODO: reseter button function
 function reseter() {
-  this.addEventListener("click", reseter1());
+  self.addEventListener("click", reseter1());
 
 };
 
